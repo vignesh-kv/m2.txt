@@ -1,0 +1,10 @@
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+num1 = float(num1)
+num2 = float(num2)
+if num1 > num2:
+    print(f"The first number {num1} is bigger than the second number {num2}.")
+elif num2 > num1:
+    print(f"The second number {num2} is bigger than the first number {num1}.")
+else:
+    print(f"Both numbers are equal: {num1}.")
